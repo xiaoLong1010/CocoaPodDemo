@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CXLFirstFramework"
-  s.version      = "1.6.0"
+  s.version      = "1.7.0"
   s.summary      = "my test to upload framework to CocoaPods"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = "zhangsan123"
+  s.author             = { "chenlong11" => "csy8752316@sina.com" }
   # Or just: s.author    = "chenlong11"
   # s.authors            = { "chenlong11" => "chenlong11@baidu.com" }
   # s.social_media_url   = "http://twitter.com/chenlong11"
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xiaoLong1010/CocoaPodDemo.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = 'BDHttpDns.framework'
+  s.vendored_frameworks = 'Zhangfghur45.framework'
   s.frameworks = 'Foundation'
 
 

@@ -1,0 +1,6 @@
+framework module Zhangfghur45 {
+  umbrella header "Zhangfghur45.h"
+
+  export *
+  module * { export * }
+}
