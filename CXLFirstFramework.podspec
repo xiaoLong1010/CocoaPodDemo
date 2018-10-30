@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CXLFirstFramework"
-  s.version      = "1.4.0"
+  s.version      = "1.5.0"
   s.summary      = "my test to upload framework to CocoaPods"
 
   # This description is used to generate tags and improve search results.
