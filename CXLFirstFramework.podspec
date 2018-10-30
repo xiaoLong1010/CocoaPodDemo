@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CXLFirstFramework"
-  s.version      = "1.5.0"
+  s.version      = "1.6.0"
   s.summary      = "my test to upload framework to CocoaPods"
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xiaoLong1010/CocoaPodDemo.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = 'MyTest.framework'
+  s.vendored_frameworks = 'BDHttpDns.framework'
   s.frameworks = 'Foundation'
 
 
