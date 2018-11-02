@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   DESC
   s.author   =   { 'Baidu Cloud IN Team' => 'in@baidu.com' }
   s.source   =   { :git => "https://github.com/xiaoLong1010/CocoaPodDemo.git", :tag => "#{s.version}"}
-  s.vendored_frameworks = '#{s.version}/BDHttpDns.framework'
+  s.vendored_frameworks = '1.2.0/BDHttpDns.framework'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
